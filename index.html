@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Arcaea PTT 计算器</title>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/element-plus/dist/index.css">
@@ -227,6 +227,10 @@
     }
   </style>
 </head>
+
+<!-- 访问统计 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 <body>
   <div id="app">
     <div class="container">
@@ -368,7 +372,16 @@
       <!-- 版本信息 -->
       <div class="version-info">
         支持 Arcaea v6.0.3 版本
+        <div class="visit-count">
+          <span id="busuanzi_container_site_pv" style="display: inline;">
+            总访问量: <span id="busuanzi_value_site_pv"></span> 次
+          </span>
+          <span id="busuanzi_container_site_uv" style="display: inline;">
+            | 访客数: <span id="busuanzi_value_site_uv"></span> 人
+          </span>
+        </div>
       </div>
+
     </div>
   </div>
 
