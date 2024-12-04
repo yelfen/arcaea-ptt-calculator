@@ -1,0 +1,4147 @@
+{
+  "songs": [
+    {
+      "id": "1",
+      "title": "Testify",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.9
+        },
+        "BYD": {
+          "constant": 12.0
+        }
+      }
+    },
+    {
+      "id": "2",
+      "title": "Tempestissimo",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.7
+        },
+        "BYD": {
+          "constant": 11.7
+        }
+      }
+    },
+    {
+      "id": "3",
+      "title": "Pentiment",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.4
+        },
+        "BYD": {
+          "constant": 11.5
+        }
+      }
+    },
+    {
+      "id": "4",
+      "title": "Arcana Eden",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        },
+        "BYD": {
+          "constant": 11.6
+        }
+      }
+    },
+    {
+      "id": "5",
+      "title": "Grievous Lady",
+      "difficulties": {
+        "FTR": {
+          "constant": 11.1
+        }
+      }
+    },
+    {
+      "id": "6",
+      "title": "Fracture Ray",
+      "difficulties": {
+        "FTR": {
+          "constant": 11.1
+        }
+      }
+    },
+    {
+      "id": "7",
+      "title": "Arghena",
+      "difficulties": {
+        "FTR": {
+          "constant": 11.3
+        }
+      }
+    },
+    {
+      "id": "8",
+      "title": "World Ender",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.0
+        },
+        "BYD": {
+          "constant": 11.1
+        }
+      }
+    },
+    {
+      "id": "9",
+      "title": "ALTER EGO",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        },
+        "ETR": {
+          "constant": 11.3
+        }
+      }
+    },
+    {
+      "id": "10",
+      "title": "Aegleseeker",
+      "difficulties": {
+        "FTR": {
+          "constant": 11.2
+        }
+      }
+    },
+    {
+      "id": "11",
+      "title": "Abstruse Dilemma",
+      "difficulties": {
+        "FTR": {
+          "constant": 11.3
+        }
+      }
+    },
+    {
+      "id": "12",
+      "title": "SAIKYO STRONGER",
+      "difficulties": {
+        "FTR": {
+          "constant": 11.0
+        }
+      }
+    },
+    {
+      "id": "13",
+      "title": "Dantalion",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "14",
+      "title": "#1f1e33",
+      "difficulties": {
+        "FTR": {
+          "constant": 11.1
+        }
+      }
+    },
+    {
+      "id": "15",
+      "title": "BUCHiGiRE Berserker",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "16",
+      "title": "Misdeed -la bonté de Dieu et l'origine du mal-",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.9
+        }
+      }
+    },
+    {
+      "id": "17",
+      "title": "Infinite Strife,",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        },
+        "BYD": {
+          "constant": 10.9
+        }
+      }
+    },
+    {
+      "id": "18",
+      "title": "LAMIA",
+      "difficulties": {
+        "FTR": {
+          "constant": 11.0
+        }
+      }
+    },
+    {
+      "id": "19",
+      "title": "TEmPTaTiON",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.9
+        }
+      }
+    },
+    {
+      "id": "20",
+      "title": "CHAOS",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.9
+        }
+      }
+    },
+    {
+      "id": "21",
+      "title": "TeraVolt",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "22",
+      "title": "Distorted Fate",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        },
+        "ETR": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "23",
+      "title": "Vulcānus",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.9
+        }
+      }
+    },
+    {
+      "id": "24",
+      "title": "World Vanquisher",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.7
+        }
+      }
+    },
+    {
+      "id": "25",
+      "title": "Ringed Genesis",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "26",
+      "title": "ω4",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "27",
+      "title": "Divine Light of Myriad",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "28",
+      "title": "Spider's Thread",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "29",
+      "title": "???Ⅱ??",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "30",
+      "title": "Meta-Mysteria",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "31",
+      "title": "Désive",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        },
+        "ETR": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "32",
+      "title": "Black MInD",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "33",
+      "title": "Axium Crisis",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "34",
+      "title": "Singularity",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        },
+        "BYD": {
+          "constant": 10.4
+        }
+      }
+    },
+    {
+      "id": "35",
+      "title": "Halcyon",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "36",
+      "title": "ouroboros -twin stroke of the end-",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.7
+        }
+      }
+    },
+    {
+      "id": "37",
+      "title": "Cyaegha",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.7
+        }
+      }
+    },
+    {
+      "id": "38",
+      "title": "AMAZING MIGHTYYYY!!!!",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.7
+        }
+      }
+    },
+    {
+      "id": "39",
+      "title": "REKKA RESONANCE",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.7
+        }
+      }
+    },
+    {
+      "id": "40",
+      "title": "GENOCIDER",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "41",
+      "title": "Stasis",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "42",
+      "title": "PRIMITIVE LIGHTS",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "43",
+      "title": "KYOREN ROMANCE",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.7
+        }
+      }
+    },
+    {
+      "id": "44",
+      "title": "Inverted World",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        },
+        "ETR": {
+          "constant": 10.7
+        }
+      }
+    },
+    {
+      "id": "45",
+      "title": "cyanine",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "46",
+      "title": "GLORY：ROAD",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "47",
+      "title": "corps-sans-organes",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "48",
+      "title": "AttraqtiA",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "49",
+      "title": "Overwhelm",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "50",
+      "title": "Seclusion",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "51",
+      "title": "Sheriruth (Laur Remix)",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "52",
+      "title": "Live Fast Die Young",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "53",
+      "title": "NULL APOPHENIA",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.7
+        }
+      }
+    },
+    {
+      "id": "54",
+      "title": "Manic Jeer",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "55",
+      "title": "UNKNOWN LEVELS",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "56",
+      "title": "Qovat",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.4
+        }
+      }
+    },
+    {
+      "id": "57",
+      "title": "MVURBD",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "58",
+      "title": "Dies irae",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        },
+        "ETR": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "59",
+      "title": "Last Celebration",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.4
+        }
+      }
+    },
+    {
+      "id": "60",
+      "title": "Lightning Screw",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "61",
+      "title": "Aurgelmir",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "62",
+      "title": "Good bye, Merry-Go-Round.",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "63",
+      "title": "To the Milky Way",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.4
+        }
+      }
+    },
+    {
+      "id": "64",
+      "title": "Ego Eimi",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "65",
+      "title": "XTREME",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "66",
+      "title": "eden",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "67",
+      "title": "Wish Upon a Snow",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "68",
+      "title": "Aleph-0",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "69",
+      "title": "MIRINAE",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.4
+        }
+      }
+    },
+    {
+      "id": "70",
+      "title": "ultradiaxon-N3",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.3
+        }
+      }
+    },
+    {
+      "id": "71",
+      "title": "Back to Basics",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "72",
+      "title": "Rain of Conflict in a Radiant Abyss",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        },
+        "ETR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "73",
+      "title": "Spirit of the Dauntless",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "74",
+      "title": "γuarδina",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.4
+        }
+      }
+    },
+    {
+      "id": "75",
+      "title": "Tiferet",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.3
+        }
+      }
+    },
+    {
+      "id": "76",
+      "title": "Garakuta Doll Play",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.4
+        }
+      }
+    },
+    {
+      "id": "77",
+      "title": "Ikazuchi",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.3
+        }
+      }
+    },
+    {
+      "id": "78",
+      "title": "Valhalla:0",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.2
+        }
+      }
+    },
+    {
+      "id": "79",
+      "title": "Felis",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.4
+        }
+      }
+    },
+    {
+      "id": "80",
+      "title": "Climax",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.4
+        }
+      }
+    },
+    {
+      "id": "81",
+      "title": "GIMME DA BLOOD",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "82",
+      "title": "Kissing Lucifer",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.4
+        }
+      }
+    },
+    {
+      "id": "83",
+      "title": "PUPA",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.4
+        }
+      }
+    },
+    {
+      "id": "84",
+      "title": "Chronicle",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "85",
+      "title": "Crimson Throne",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "86",
+      "title": "[X]",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "87",
+      "title": "IMPACT",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        },
+        "BYD": {
+          "constant": 10.4
+        }
+      }
+    },
+    {
+      "id": "88",
+      "title": "Lucid Traveler",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "89",
+      "title": "Rise of the World",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "90",
+      "title": "Lethal Voltage",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.4
+        }
+      }
+    },
+    {
+      "id": "91",
+      "title": "Twilight Concerto",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        },
+        "ETR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "92",
+      "title": "10pt8ion",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        },
+        "ETR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "93",
+      "title": "Judgement",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "94",
+      "title": "Nirv lucE",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.2
+        }
+      }
+    },
+    {
+      "id": "95",
+      "title": "Metallic Punisher",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.3
+        }
+      }
+    },
+    {
+      "id": "96",
+      "title": "Ether Strike",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.3
+        }
+      }
+    },
+    {
+      "id": "97",
+      "title": "IZANA",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.3
+        }
+      }
+    },
+    {
+      "id": "98",
+      "title": "To: Alice Liddell",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.3
+        }
+      }
+    },
+    {
+      "id": "99",
+      "title": "Viyella's Tears",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.3
+        }
+      }
+    },
+    {
+      "id": "100",
+      "title": "Hiiro Gekka, Kyoushou no Zetsu (nayuta 2017 ver.)",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.3
+        }
+      }
+    },
+    {
+      "id": "101",
+      "title": "99 Glooms",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.3
+        }
+      }
+    },
+    {
+      "id": "102",
+      "title": "Dual Doom Deathmatch",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.9
+        },
+        "ETR": {
+          "constant": 10.3
+        }
+      }
+    },
+    {
+      "id": "103",
+      "title": "αterlβus",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.2
+        }
+      }
+    },
+    {
+      "id": "104",
+      "title": "conflict",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.2
+        }
+      }
+    },
+    {
+      "id": "105",
+      "title": "Malicious Mischance",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.2
+        }
+      }
+    },
+    {
+      "id": "106",
+      "title": "L?schen",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.2
+        }
+      }
+    },
+    {
+      "id": "107",
+      "title": "Quon（DJ Noriken）",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.7
+        },
+        "BYD": {
+          "constant": 10.2
+        }
+      }
+    },
+    {
+      "id": "108",
+      "title": "G e n g a o z o",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.1
+        }
+      }
+    },
+    {
+      "id": "109",
+      "title": "Redolent Shape",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.2
+        }
+      }
+    },
+    {
+      "id": "110",
+      "title": "Medusa",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.1
+        }
+      }
+    },
+    {
+      "id": "111",
+      "title": "NEO WINGS",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.2
+        }
+      }
+    },
+    {
+      "id": "112",
+      "title": "Capella",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.2
+        }
+      }
+    },
+    {
+      "id": "113",
+      "title": "Magnolia",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.2
+        }
+      }
+    },
+    {
+      "id": "114",
+      "title": "PRAGMATISM",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.1
+        },
+        "BYD": {
+          "constant": 11.2
+        }
+      }
+    },
+    {
+      "id": "115",
+      "title": "Sheriruth",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.0
+        }
+      }
+    },
+    {
+      "id": "116",
+      "title": "Scarlet Lance",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.0
+        }
+      }
+    },
+    {
+      "id": "117",
+      "title": "lastendconductor",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        },
+        "BYD": {
+          "constant": 10.2
+        }
+      }
+    },
+    {
+      "id": "118",
+      "title": "Trrricksters!!",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.1
+        }
+      }
+    },
+    {
+      "id": "119",
+      "title": "Logos",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.2
+        }
+      }
+    },
+    {
+      "id": "120",
+      "title": "Gensou no Satellite",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.7
+        },
+        "ETR": {
+          "constant": 10.1
+        }
+      }
+    },
+    {
+      "id": "121",
+      "title": "Modelista",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "122",
+      "title": "trappola bewitching",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        },
+        "BYD": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "123",
+      "title": "Alexandrite",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.0
+        }
+      }
+    },
+    {
+      "id": "124",
+      "title": "Vicious Heroism",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.0
+        },
+        "BYD": {
+          "constant": 11.2
+        }
+      }
+    },
+    {
+      "id": "125",
+      "title": "Mirzam",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "126",
+      "title": "Xanatos",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.0
+        }
+      }
+    },
+    {
+      "id": "127",
+      "title": "Oshama Scramble!",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.0
+        }
+      }
+    },
+    {
+      "id": "128",
+      "title": "Bamboo",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.0
+        }
+      }
+    },
+    {
+      "id": "129",
+      "title": "HIVEMIND",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.0
+        }
+      }
+    },
+    {
+      "id": "130",
+      "title": "Free Myself",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.0
+        }
+      }
+    },
+    {
+      "id": "131",
+      "title": "Kanbu de Tomatte Sugu Tokeru",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.1
+        }
+      }
+    },
+    {
+      "id": "132",
+      "title": "Masquerade Legion",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.0
+        }
+      }
+    },
+    {
+      "id": "133",
+      "title": "Chromafill",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.0
+        }
+      }
+    },
+    {
+      "id": "134",
+      "title": "STARGATE EXTREME",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        },
+        "ETR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "135",
+      "title": "Third Sun",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        },
+        "ETR": {
+          "constant": 10.0
+        }
+      }
+    },
+    {
+      "id": "136",
+      "title": "SOUNDWiTCH",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "137",
+      "title": "Nhelv",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "138",
+      "title": "Heavensdoor",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        },
+        "BYD": {
+          "constant": 10.8
+        }
+      }
+    },
+    {
+      "id": "139",
+      "title": "Antagonism",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "140",
+      "title": "Arcahv",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "141",
+      "title": "7thSense",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "142",
+      "title": "Summer Fireworks of Love",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "143",
+      "title": "Trap Crow",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "144",
+      "title": "Astra walkthrough",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "145",
+      "title": "MAXRAGE",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "146",
+      "title": "Genesis",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "147",
+      "title": "The Survivor (Game Edit)",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "148",
+      "title": "New York Back Raise",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "149",
+      "title": "INTERNET YAMERO",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "150",
+      "title": "Devillic Sphere",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "151",
+      "title": "Amekagura",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "152",
+      "title": "Nameless Passion",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "153",
+      "title": "Awaken In Ruins",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "154",
+      "title": "Beautiful Dreamer",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "155",
+      "title": "Hypnotize",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.9
+        },
+        "ETR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "156",
+      "title": "Ashen 6oundary",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "157",
+      "title": "Memory Forest",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "158",
+      "title": "Linear Accelerator",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "159",
+      "title": "DX Choseinou Full Metal Shojo",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "160",
+      "title": "Black Territory",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "161",
+      "title": "Corruption",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "162",
+      "title": "Heavenly caress",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "163",
+      "title": "Einherjar Joker",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        },
+        "BYD": {
+          "constant": 10.9
+        }
+      }
+    },
+    {
+      "id": "164",
+      "title": "Lost Desire",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "165",
+      "title": "Scarlet Cage",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "166",
+      "title": "Got hive of Ra",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "167",
+      "title": "Galaxy Friends",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "168",
+      "title": "Xeraphinite",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "169",
+      "title": "Far Away Light",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "170",
+      "title": "THE ULTIMACY",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "171",
+      "title": "Ascent",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "172",
+      "title": "Haze of Autumn",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "173",
+      "title": "init()",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "174",
+      "title": "Macrocosmic Modulation",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "175",
+      "title": "Protoflicker",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "176",
+      "title": "Defection",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "177",
+      "title": "Callima Karma",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "178",
+      "title": "Ai Drew",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "179",
+      "title": "FLUFFY FLASH",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "180",
+      "title": "World Fragments III(radio edit)",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "181",
+      "title": "Hybris (The one who shattered)",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "182",
+      "title": "Kanjou no Matenrou ～Arr.Demetori",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "183",
+      "title": "To the Furthest Dream",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "184",
+      "title": "Technicolour",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "185",
+      "title": "Ouvertüre",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "186",
+      "title": "LIVHT MY WΔY",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "187",
+      "title": "MORNINGLOOM",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.8
+        },
+        "ETR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "188",
+      "title": "Old School Salvage",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "189",
+      "title": "HYPER VISION",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "190",
+      "title": "Distortion Human",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "191",
+      "title": "shrink",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "192",
+      "title": "Waltz for Lorelei",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.8
+        },
+        "ETR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "193",
+      "title": "Crimson Quartz",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.8
+        },
+        "ETR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "194",
+      "title": "Lethaeus",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "195",
+      "title": "The Message",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "196",
+      "title": "Sulfur",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "197",
+      "title": "SUPERNOVA",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "198",
+      "title": "Dreadnought",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "199",
+      "title": "Monochrome Princess",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "200",
+      "title": "Filament",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "201",
+      "title": "BATTLE NO.1",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "202",
+      "title": "BLRINK",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "203",
+      "title": "amygdata",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "204",
+      "title": "Black Lotus",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "205",
+      "title": "Altale",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "206",
+      "title": "BADTEK",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "207",
+      "title": "Heart Jackin'",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "208",
+      "title": "Dazzle hop",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "209",
+      "title": "Vandalism",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "210",
+      "title": "AlterAle",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "211",
+      "title": "Mazy Metroplex",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "212",
+      "title": "goldenslaughterer",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "213",
+      "title": "n?ο κ?smo",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "214",
+      "title": "μ",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "215",
+      "title": "Last | Eternity",
+      "difficulties": {
+        "BYD": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "216",
+      "title": "Let's Rock (Arcaea mix)",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "217",
+      "title": "Lost in the Abyss",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "218",
+      "title": "Ultimate taste",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "219",
+      "title": "SACRIFICE feat. ayame",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "220",
+      "title": "RGB",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "221",
+      "title": "B.B.K.K.B.K.K.",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "222",
+      "title": "Hotarubi no Yuki",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "223",
+      "title": "Luna Rossa",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "224",
+      "title": "Innocence",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.5
+        },
+        "ETR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "225",
+      "title": "IONOSTREAM",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.7
+        },
+        "ETR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "226",
+      "title": "Hailstone",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "227",
+      "title": "Quon（Feryquitous）",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "228",
+      "title": "carmine:scythe",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "229",
+      "title": "Fallensquare",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "230",
+      "title": "LunarOrbit -believe in the Espebranch road-",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "231",
+      "title": "Astral tale",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "232",
+      "title": "Vindication",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "233",
+      "title": "A Wandering Melody of Love",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "234",
+      "title": "Avant Raze",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "235",
+      "title": "Purple Verse",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        },
+        "BYD": {
+          "constant": 10.6
+        }
+      }
+    },
+    {
+      "id": "236",
+      "title": "Lazy Addiction",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "237",
+      "title": "ENERGY SYNERGY MATRIX",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "238",
+      "title": "Loveless Dress",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "239",
+      "title": "Last",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.0
+        },
+        "BYD": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "240",
+      "title": "Stratoliner",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "241",
+      "title": "Alone & Lorn",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "242",
+      "title": "epitaxy",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.6
+        },
+        "ETR": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "243",
+      "title": "DataErr0r",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "244",
+      "title": "Specta",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "245",
+      "title": "Cybernecia Catharsis",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        },
+        "BYD": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "246",
+      "title": "Illegal Paradise",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "247",
+      "title": "STAGER (ALL STAGE CLEAR)",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "248",
+      "title": "OMAKENO Stroke",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        },
+        "BYD": {
+          "constant": 10.3
+        }
+      }
+    },
+    {
+      "id": "249",
+      "title": "MAHOROBA",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "250",
+      "title": "ΟΔΥΣΣΕΙΑ",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "251",
+      "title": "Evening in Scarlet",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "252",
+      "title": "NULCTRL",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "253",
+      "title": "GIMMICK",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "254",
+      "title": "DRG",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "255",
+      "title": "Remind the Souls (Short Version)",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "256",
+      "title": "Dynitikós",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "257",
+      "title": "Transient Space",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "258",
+      "title": "felys final remix",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "259",
+      "title": "On And On!! feat. Jenga",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "260",
+      "title": "Jingle",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.8
+        },
+        "ETR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "261",
+      "title": "〇、",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "262",
+      "title": "In Vain",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "263",
+      "title": "Party Vinyl",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        },
+        "BYD": {
+          "constant": 10.3
+        }
+      }
+    },
+    {
+      "id": "264",
+      "title": "CROSS?SOUL",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "265",
+      "title": "Your voice so... feat. Such",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "266",
+      "title": "Impure Bird",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "267",
+      "title": "Dreamin' Attraction!!",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "268",
+      "title": "Red and Blue",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        },
+        "BYD": {
+          "constant": 10.2
+        }
+      }
+    },
+    {
+      "id": "269",
+      "title": "Yosakura Fubuki",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "270",
+      "title": "Be There",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "271",
+      "title": "VECTOЯ",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "272",
+      "title": "AI[UE]OON",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "273",
+      "title": "Equilibrium",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "274",
+      "title": "Teriqma",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        },
+        "BYD": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "275",
+      "title": "CROSS?OVER",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "276",
+      "title": "Lapis",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "277",
+      "title": "Crystal Gravity",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "278",
+      "title": "with U",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "279",
+      "title": "Let you DIVE! (nitro rmx)",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "280",
+      "title": "Final Step!",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "281",
+      "title": "Head BONK ache",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "282",
+      "title": "Raven's Pride",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "283",
+      "title": "FANTA5Y",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "284",
+      "title": "HELLOHELL",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.5
+        },
+        "ETR": {
+          "constant": 9.3
+        }
+      }
+    },
+    {
+      "id": "285",
+      "title": "FURETE-MITAI",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.4
+        },
+        "ETR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "286",
+      "title": "GOODTEK (Arcaea Edit)",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        },
+        "BYD": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "287",
+      "title": "Oracle",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        }
+      }
+    },
+    {
+      "id": "288",
+      "title": "Ignotus",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        },
+        "BYD": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "289",
+      "title": "Auxesia",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        }
+      }
+    },
+    {
+      "id": "290",
+      "title": "Syro",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        }
+      }
+    },
+    {
+      "id": "291",
+      "title": "Blaster",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        }
+      }
+    },
+    {
+      "id": "292",
+      "title": "Feels So Right feat. Renko",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        }
+      }
+    },
+    {
+      "id": "293",
+      "title": "Glow",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        }
+      }
+    },
+    {
+      "id": "294",
+      "title": "Can I Friend You on Bassbook? Lol",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        }
+      }
+    },
+    {
+      "id": "295",
+      "title": "False Embellishment",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        }
+      }
+    },
+    {
+      "id": "296",
+      "title": "Blocked Library",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        }
+      }
+    },
+    {
+      "id": "297",
+      "title": "Sakura Fubuki",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "298",
+      "title": "PICO-Pico-Translation!",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "299",
+      "title": "Heart",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "300",
+      "title": "MANTIS (Arcaea Ultra-Bloodrush VIP)",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "301",
+      "title": "Lost Emotion feat. nomico",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        }
+      }
+    },
+    {
+      "id": "302",
+      "title": "The Formula",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        }
+      }
+    },
+    {
+      "id": "303",
+      "title": "Floating World",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        }
+      }
+    },
+    {
+      "id": "304",
+      "title": "Lost Civilization",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.2
+        },
+        "BYD": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "305",
+      "title": "An?kumene",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.2
+        }
+      }
+    },
+    {
+      "id": "306",
+      "title": "Strongholds",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.2
+        }
+      }
+    },
+    {
+      "id": "307",
+      "title": "Rugie",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.2
+        }
+      }
+    },
+    {
+      "id": "308",
+      "title": "Phantasia",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.2
+        }
+      }
+    },
+    {
+      "id": "309",
+      "title": "Libertas",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.2
+        },
+        "BYD": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "310",
+      "title": "Alice à la mode",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.2
+        }
+      }
+    },
+    {
+      "id": "311",
+      "title": "Dancin' on a Cat's Paw",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.2
+        }
+      }
+    },
+    {
+      "id": "312",
+      "title": "Redraw the Colorless World",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "313",
+      "title": "cocoro*cosmetic",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.2
+        }
+      }
+    },
+    {
+      "id": "314",
+      "title": "Used to be",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.2
+        }
+      }
+    },
+    {
+      "id": "315",
+      "title": "Leave All Behind",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.2
+        }
+      }
+    },
+    {
+      "id": "316",
+      "title": "Sign of \"10.5km\"",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.2
+        }
+      }
+    },
+    {
+      "id": "317",
+      "title": "qualia -ideaesthesia-",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.1
+        },
+        "BYD": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "318",
+      "title": "Essence of Twilight",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.1
+        }
+      }
+    },
+    {
+      "id": "319",
+      "title": "Iconoclast",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.1
+        }
+      }
+    },
+    {
+      "id": "320",
+      "title": "Journey",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.1
+        }
+      }
+    },
+    {
+      "id": "321",
+      "title": "dropdead",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.1
+        },
+        "BYD": {
+          "constant": 10.5
+        }
+      }
+    },
+    {
+      "id": "322",
+      "title": "La'qryma of the Wasteland",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.1
+        },
+        "BYD": {
+          "constant": 10.0
+        }
+      }
+    },
+    {
+      "id": "323",
+      "title": "Faint Light (Arcaea Edit)",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.1
+        }
+      }
+    },
+    {
+      "id": "324",
+      "title": "Alice's Suitcase",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.1
+        }
+      }
+    },
+    {
+      "id": "325",
+      "title": "Life is PIANO",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.1
+        }
+      }
+    },
+    {
+      "id": "326",
+      "title": "Small Cloud Sugar Candy",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        }
+      }
+    },
+    {
+      "id": "327",
+      "title": "Blue Rose",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.1
+        }
+      }
+    },
+    {
+      "id": "328",
+      "title": "Prayer",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.2
+        },
+        "ETR": {
+          "constant": 9.1
+        }
+      }
+    },
+    {
+      "id": "329",
+      "title": "Flyburg and Endroll",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.0
+        }
+      }
+    },
+    {
+      "id": "330",
+      "title": "Kanagawa Cyber Culvert",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.0
+        },
+        "BYD": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "331",
+      "title": "Empire of Winter",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.1
+        }
+      }
+    },
+    {
+      "id": "332",
+      "title": "ReviXy",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.1
+        }
+      }
+    },
+    {
+      "id": "333",
+      "title": "Jump",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.0
+        }
+      }
+    },
+    {
+      "id": "334",
+      "title": "Coastal Highway",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.1
+        }
+      }
+    },
+    {
+      "id": "335",
+      "title": "Turbocharger",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.0
+        }
+      }
+    },
+    {
+      "id": "336",
+      "title": "Galactic Love",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.0
+        }
+      }
+    },
+    {
+      "id": "337",
+      "title": "Lawless Point",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.0
+        }
+      }
+    },
+    {
+      "id": "338",
+      "title": "Primeval Texture",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.0
+        }
+      }
+    },
+    {
+      "id": "339",
+      "title": "memoryfactory.lzh",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.9
+        }
+      }
+    },
+    {
+      "id": "340",
+      "title": "Flashback",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.9
+        }
+      }
+    },
+    {
+      "id": "341",
+      "title": "Chronostasis",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.9
+        }
+      }
+    },
+    {
+      "id": "342",
+      "title": "Evoltex (poppi'n mix)",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.9
+        }
+      }
+    },
+    {
+      "id": "343",
+      "title": "Maze No.9",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.9
+        }
+      }
+    },
+    {
+      "id": "344",
+      "title": "MERLIN",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.9
+        },
+        "BYD": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "345",
+      "title": "Chelsea",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.9
+        }
+      }
+    },
+    {
+      "id": "346",
+      "title": "Give Me a Nightmare",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.9
+        }
+      }
+    },
+    {
+      "id": "347",
+      "title": "Lights of Muse",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.9
+        }
+      }
+    },
+    {
+      "id": "348",
+      "title": "Surrender",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.8
+        }
+      }
+    },
+    {
+      "id": "349",
+      "title": "next to you",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.8
+        },
+        "BYD": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "350",
+      "title": "Solitary Dream",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.8
+        }
+      }
+    },
+    {
+      "id": "351",
+      "title": "Antithese",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.8
+        },
+        "BYD": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "352",
+      "title": "Vivid Theory",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.8
+        }
+      }
+    },
+    {
+      "id": "353",
+      "title": "Cosmica",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.8
+        }
+      }
+    },
+    {
+      "id": "354",
+      "title": "Dialnote",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.8
+        }
+      }
+    },
+    {
+      "id": "355",
+      "title": "CYCLES",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.8
+        }
+      }
+    },
+    {
+      "id": "356",
+      "title": "Cosmo Pop Funclub",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.8
+        }
+      }
+    },
+    {
+      "id": "357",
+      "title": "Hidden Rainbows of Epicurus",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.5
+        },
+        "ETR": {
+          "constant": 8.8
+        }
+      }
+    },
+    {
+      "id": "358",
+      "title": "Saint or Sinner",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.8
+        }
+      }
+    },
+    {
+      "id": "359",
+      "title": "cry of viyella",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.7
+        }
+      }
+    },
+    {
+      "id": "360",
+      "title": "Call My Name feat. Yukacco",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.7
+        }
+      }
+    },
+    {
+      "id": "361",
+      "title": "Grimheart",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.7
+        }
+      }
+    },
+    {
+      "id": "362",
+      "title": "Senkyou",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.7
+        }
+      }
+    },
+    {
+      "id": "363",
+      "title": "Beside You",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.7
+        }
+      }
+    },
+    {
+      "id": "364",
+      "title": "Paper Witch",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.7
+        }
+      }
+    },
+    {
+      "id": "365",
+      "title": "Tsuki ni Murakumo, Hana ni Kaze",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.7
+        }
+      }
+    },
+    {
+      "id": "366",
+      "title": "WAIT FOR DAWN",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.7
+        }
+      }
+    },
+    {
+      "id": "367",
+      "title": "Silent Rush",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.6
+        }
+      }
+    },
+    {
+      "id": "368",
+      "title": "FREEF4LL",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.6
+        },
+        "BYD": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "369",
+      "title": "Gekka (Short Version)",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.6
+        }
+      }
+    },
+    {
+      "id": "370",
+      "title": "April showers",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.6
+        }
+      }
+    },
+    {
+      "id": "371",
+      "title": "enchanted love",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.6
+        }
+      }
+    },
+    {
+      "id": "372",
+      "title": "Babaroque",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.5
+        }
+      }
+    },
+    {
+      "id": "373",
+      "title": "Dandelion",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.5
+        }
+      }
+    },
+    {
+      "id": "374",
+      "title": "Harutopia ~Utopia of Spring~",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.5
+        }
+      }
+    },
+    {
+      "id": "375",
+      "title": "Reinvent",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.5
+        }
+      }
+    },
+    {
+      "id": "376",
+      "title": "DDD",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.5
+        }
+      }
+    },
+    {
+      "id": "377",
+      "title": "Altair (feat. *spiLa*)",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.5
+        }
+      }
+    },
+    {
+      "id": "378",
+      "title": "syūten",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.5
+        }
+      }
+    },
+    {
+      "id": "379",
+      "title": "Snow White",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.4
+        }
+      }
+    },
+    {
+      "id": "380",
+      "title": "Lumia",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.4
+        },
+        "BYD": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "381",
+      "title": "REconstruction",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.4
+        }
+      }
+    },
+    {
+      "id": "382",
+      "title": "Moonheart",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.4
+        },
+        "BYD": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "383",
+      "title": "Rabbit In The Black Room",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.4
+        }
+      }
+    },
+    {
+      "id": "384",
+      "title": "Purgatorium",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.4
+        },
+        "BYD": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "385",
+      "title": "Eccentric Tale",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.4
+        }
+      }
+    },
+    {
+      "id": "386",
+      "title": "INTERNET OVERDOSE",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.4
+        }
+      }
+    },
+    {
+      "id": "387",
+      "title": "Shades of Light in a Transcendent Realm",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.3
+        },
+        "BYD": {
+          "constant": 9.1
+        }
+      }
+    },
+    {
+      "id": "388",
+      "title": "Bookmaker (2D Version)",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.3
+        },
+        "BYD": {
+          "constant": 10.0
+        }
+      }
+    },
+    {
+      "id": "389",
+      "title": "Dot to Dot feat. shully",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.3
+        }
+      }
+    },
+    {
+      "id": "390",
+      "title": "Tie me down gently",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.3
+        }
+      }
+    },
+    {
+      "id": "391",
+      "title": "Oblivia",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.3
+        },
+        "BYD": {
+          "constant": 9.7
+        }
+      }
+    },
+    {
+      "id": "392",
+      "title": "?vril -Flicka i krans-",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.3
+        }
+      }
+    },
+    {
+      "id": "393",
+      "title": "san skia",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.3
+        }
+      }
+    },
+    {
+      "id": "394",
+      "title": "Lucifer",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.2
+        }
+      }
+    },
+    {
+      "id": "395",
+      "title": "Genesis",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.2
+        }
+      }
+    },
+    {
+      "id": "396",
+      "title": "One Last Drive",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.2
+        }
+      }
+    },
+    {
+      "id": "397",
+      "title": "Hall of Mirrors",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.2
+        }
+      }
+    },
+    {
+      "id": "398",
+      "title": "1F√",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.2
+        }
+      }
+    },
+    {
+      "id": "399",
+      "title": "blue comet",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.2
+        }
+      }
+    },
+    {
+      "id": "400",
+      "title": "I've heard it said",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.1
+        }
+      }
+    },
+    {
+      "id": "401",
+      "title": "Hikari",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.1
+        }
+      }
+    },
+    {
+      "id": "402",
+      "title": "Diode",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.1
+        }
+      }
+    },
+    {
+      "id": "403",
+      "title": "Bullet Waiting for Me (James Landino remix)",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.1
+        }
+      }
+    },
+    {
+      "id": "404",
+      "title": "Relentless",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.0
+        }
+      }
+    },
+    {
+      "id": "405",
+      "title": "world.execute(me);",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.0
+        }
+      }
+    },
+    {
+      "id": "406",
+      "title": "Prism",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.0
+        }
+      }
+    },
+    {
+      "id": "407",
+      "title": "Rise",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.8
+        }
+      }
+    },
+    {
+      "id": "408",
+      "title": "Dement ~after legend~",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.8
+        },
+        "BYD": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "409",
+      "title": "Infinity Heaven",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.8
+        },
+        "BYD": {
+          "constant": 9.6
+        }
+      }
+    },
+    {
+      "id": "410",
+      "title": "Brand new world",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.8
+        }
+      }
+    },
+    {
+      "id": "411",
+      "title": "Paradise",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.8
+        }
+      }
+    },
+    {
+      "id": "412",
+      "title": "Clotho and the stargazer",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.8
+        },
+        "ETR": {
+          "constant": 8.8
+        }
+      }
+    },
+    {
+      "id": "413",
+      "title": "Moonlight of Sand Castle",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.8
+        }
+      }
+    },
+    {
+      "id": "414",
+      "title": "Romance Wars",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.8
+        }
+      }
+    },
+    {
+      "id": "415",
+      "title": "Dream goes on",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.8
+        }
+      }
+    },
+    {
+      "id": "416",
+      "title": "inkar-usi",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.8
+        },
+        "BYD": {
+          "constant": 9.4
+        }
+      }
+    },
+    {
+      "id": "417",
+      "title": "Suomi",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.8
+        },
+        "ETR": {
+          "constant": 8.9
+        }
+      }
+    },
+    {
+      "id": "418",
+      "title": "First Snow",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.8
+        }
+      }
+    },
+    {
+      "id": "419",
+      "title": "Sayonara Hatsukoi",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.0
+        },
+        "ETR": {
+          "constant": 8.5
+        }
+      }
+    },
+    {
+      "id": "420",
+      "title": "Fairytale",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.0
+        },
+        "BYD": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "421",
+      "title": "Vexaria",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.0
+        },
+        "BYD": {
+          "constant": 9.0
+        }
+      }
+    },
+    {
+      "id": "422",
+      "title": "Blossoms",
+      "difficulties": {
+        "FTR": {
+          "constant": 7.0
+        }
+      }
+    },
+    {
+      "id": "423",
+      "title": "astral.exe",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.5
+        }
+      }
+    },
+    {
+      "id": "424",
+      "title": "LiftOff",
+      "difficulties": {
+        "FTR": {
+          "constant": 8.2
+        },
+        "ETR": {
+          "constant": 9.8
+        }
+      }
+    },
+    {
+      "id": "425",
+      "title": "SUPER AMBULANCE",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.3
+        }
+      }
+    },
+    {
+      "id": "426",
+      "title": "Don't Fight The Music",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.3
+        },
+        "ETR": {
+          "constant": 10.7
+        }
+      }
+    },
+    {
+      "id": "427",
+      "title": "And Revive The Melody",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.9
+        }
+      }
+    },
+    {
+      "id": "428",
+      "title": "Swan Song",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.9
+        }
+      }
+    },
+    {
+      "id": "429",
+      "title": "Renegade",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.6
+        },
+        "BYD": {
+          "constant": 10.2
+        }
+      }
+    },
+    {
+      "id": "430",
+      "title": "Rays of Remnant",
+      "difficulties": {
+        "FTR": {
+          "constant": 9.7
+        },
+        "BYD": {
+          "constant": 10.4
+        }
+      }
+    },
+    {
+      "id": "431",
+      "title": "Breach of Faith",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.3
+        },
+        "BYD": {
+          "constant": 10.9
+        }
+      }
+    },
+    {
+      "id": "432",
+      "title": "Lament Rain",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        },
+        "BYD": {
+          "constant": 11.4
+        }
+      }
+    },
+    {
+      "id": "433",
+      "title": "Designant.",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.9
+        },
+        "BYD": {
+          "constant": 11.9
+        }
+      }
+    },
+    {
+      "id": "434",
+      "title": "Astral Quantization",
+      "difficulties": {
+        "FTR": {
+          "constant": 10.6
+        }
+      }
+    }
+  ]
+}
