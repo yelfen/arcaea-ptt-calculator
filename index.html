@@ -285,7 +285,10 @@
         // 加载歌曲数据
         const loadSongData = async () => {
           try {
-            const response = await fetch('v6.0.3.json')
+            const basePath = window.location.pathname.includes('/arcaea-ptt-calculator') 
+              ? '/arcaea-ptt-calculator/' 
+              : '/';
+            const response = await fetch(`${basePath}v6.0.3.json`)
             const data = await response.json()
             songData.value = data.songs
           } catch (error) {
