@@ -106,147 +106,153 @@
         <el-tabs v-model="activeTab">
           <!-- 计算PTT的标签页 -->
           <el-tab-pane label="计算PTT" name="calculatePtt">
-            <div class="calculator">
-              <div class="form-item">
-                <div class="form-label">谱面定数（Chart Constant）</div>
-                <el-tooltip
-                  content="输入谱面的定数值，范围0-12"
-                  placement="top"
-                >
-                  <el-input-number 
-                    v-model="chart.constant" 
-                    :min="0" 
-                    :max="12" 
-                    :step="0.1"
-                    placeholder="谱面定数">
-                  </el-input-number>
-                </el-tooltip>
-              </div>
-              <div class="form-item">
-                <div class="form-label">游玩分数（Score）</div>
-                <el-tooltip
-                  content="输入实际获得的游玩分数"
-                  placement="top"
-                >
-                  <el-input-number 
-                    v-model="chart.score" 
-                    :min="0" 
-                    :max="10000000" 
-                    :step="1000"
-                    placeholder="游玩分数">
-                  </el-input-number>
-                </el-tooltip>
-                <div class="quick-select">
-                  <el-button size="small" @click="setScore('AA')">AA (9500k)</el-button>
-                  <el-button size="small" @click="setScore('EX')">EX (9800k)</el-button>
-                  <el-button size="small" @click="setScore('EXPlus')">EX+ (9900k)</el-button>
-                  <el-button size="small" @click="setScore('PM')">PM (10000k)</el-button>
+            <div :inert="activeTab !== 'calculatePtt'">
+              <div class="calculator">
+                <div class="form-item">
+                  <div class="form-label">谱面定数（Chart Constant）</div>
+                  <el-tooltip
+                    content="输入谱面的定数值，范围0-12"
+                    placement="top"
+                  >
+                    <el-input-number 
+                      v-model="chart.constant" 
+                      :min="0" 
+                      :max="12" 
+                      :step="0.1"
+                      placeholder="谱面定数">
+                    </el-input-number>
+                  </el-tooltip>
                 </div>
-              </div>
-              <el-button type="primary" @click="calculatePtt">计算</el-button>
-              <div v-if="pttResult" class="result">
-                计算结果：{{ pttResult }} PTT
+                <div class="form-item">
+                  <div class="form-label">游玩分数（Score）</div>
+                  <el-tooltip
+                    content="输入实际获得的游玩分数"
+                    placement="top"
+                  >
+                    <el-input-number 
+                      v-model="chart.score" 
+                      :min="0" 
+                      :max="10000000" 
+                      :step="1000"
+                      placeholder="游玩分数">
+                    </el-input-number>
+                  </el-tooltip>
+                  <div class="quick-select">
+                    <el-button size="small" @click="setScore('AA')">AA (9500k)</el-button>
+                    <el-button size="small" @click="setScore('EX')">EX (9800k)</el-button>
+                    <el-button size="small" @click="setScore('EXPlus')">EX+ (9900k)</el-button>
+                    <el-button size="small" @click="setScore('PM')">PM (10000k)</el-button>
+                  </div>
+                </div>
+                <el-button type="primary" @click="calculatePtt">计算</el-button>
+                <div v-if="pttResult" class="result">
+                  计算结果：{{ pttResult }} PTT
+                </div>
               </div>
             </div>
           </el-tab-pane>
 
           <!-- 计算所需分数的标签页 -->
           <el-tab-pane label="计算所需分数" name="calculateScore">
-            <div class="calculator">
-              <div class="form-item">
-                <div class="form-label">谱面定数（Chart Constant）</div>
-                <el-tooltip
-                  content="输入谱面的定数值，范围0-12"
-                  placement="top"
-                >
-                  <el-input-number 
-                    v-model="target.constant" 
-                    :min="0" 
-                    :max="12" 
-                    :step="0.1"
-                    placeholder="谱面定数">
-                  </el-input-number>
-                </el-tooltip>
-              </div>
-              <div class="form-item">
-                <div class="form-label">目标PTT值（Target PTT）</div>
-                <el-tooltip
-                  content="输入想要达到的PTT值"
-                  placement="top"
-                >
-                  <el-input-number 
-                    v-model="target.ptt" 
-                    :min="0" 
-                    :max="14" 
-                    :step="0.1"
-                    placeholder="目标PTT">
-                  </el-input-number>
-                </el-tooltip>
-              </div>
-              <el-button type="primary" @click="calculateRequiredScore">计算</el-button>
-              <div v-if="scoreResult && !impossible" class="result">
-                需要的最低分数：{{ scoreResult.toLocaleString() }}
-              </div>
-              <div v-if="impossible" class="warning">
-                无法达到目标PTT：即使获得PM (1000万分)，最高只能获得 {{ maxPossiblePtt }} PTT
+            <div :inert="activeTab !== 'calculateScore'">
+              <div class="calculator">
+                <div class="form-item">
+                  <div class="form-label">谱面定数（Chart Constant）</div>
+                  <el-tooltip
+                    content="输入谱面的定数值，范围0-12"
+                    placement="top"
+                  >
+                    <el-input-number 
+                      v-model="target.constant" 
+                      :min="0" 
+                      :max="12" 
+                      :step="0.1"
+                      placeholder="谱面定数">
+                    </el-input-number>
+                  </el-tooltip>
+                </div>
+                <div class="form-item">
+                  <div class="form-label">目标PTT值（Target PTT）</div>
+                  <el-tooltip
+                    content="输入想要达到的PTT值"
+                    placement="top"
+                  >
+                    <el-input-number 
+                      v-model="target.ptt" 
+                      :min="0" 
+                      :max="14" 
+                      :step="0.1"
+                      placeholder="目标PTT">
+                    </el-input-number>
+                  </el-tooltip>
+                </div>
+                <el-button type="primary" @click="calculateRequiredScore">计算</el-button>
+                <div v-if="scoreResult && !impossible" class="result">
+                  需要的最低分数：{{ scoreResult.toLocaleString() }}
+                </div>
+                <div v-if="impossible" class="warning">
+                  无法达到目标PTT：即使获得PM (1000万分)，最高只能获得 {{ maxPossiblePtt }} PTT
+                </div>
               </div>
             </div>
           </el-tab-pane>
 
           <!-- 谱面查询标签页 -->
           <el-tab-pane label="谱面查询" name="songSearch">
-            <div class="calculator">
-              <div class="form-item">
-                <div class="form-label">搜索歌曲</div>
-                <el-input
-                  v-model="searchQuery"
-                  placeholder="输入歌曲名称"
-                  clearable
-                  @input="searchSongs">
-                </el-input>
-              </div>
-              <div class="song-list" v-if="filteredSongs.length > 0">
-                <el-table
-                  :data="filteredSongs"
-                  style="width: 100%">
-                  <el-table-column
-                    prop="title"
-                    label="歌曲名称"
-                    width="280">
-                  </el-table-column>
-                  <el-table-column label="难度">
-                    <template #default="scope">
-                      <div class="difficulty-row" v-if="scope.row.difficulties.PST">
-                        <span class="difficulty-label difficulty-pst">PST</span>
-                        {{ scope.row.difficulties.PST.constant }}
-                        <el-button size="small" @click="selectDifficulty(scope.row.difficulties.PST.constant)">
-                          选择
-                        </el-button>
-                      </div>
-                      <div class="difficulty-row" v-if="scope.row.difficulties.PRS">
-                        <span class="difficulty-label difficulty-prs">PRS</span>
-                        {{ scope.row.difficulties.PRS.constant }}
-                        <el-button size="small" @click="selectDifficulty(scope.row.difficulties.PRS.constant)">
-                          选择
-                        </el-button>
-                      </div>
-                      <div class="difficulty-row" v-if="scope.row.difficulties.FTR">
-                        <span class="difficulty-label difficulty-ftr">FTR</span>
-                        {{ scope.row.difficulties.FTR.constant }}
-                        <el-button size="small" @click="selectDifficulty(scope.row.difficulties.FTR.constant)">
-                          选择
-                        </el-button>
-                      </div>
-                      <div class="difficulty-row" v-if="scope.row.difficulties.BYD">
-                        <span class="difficulty-label difficulty-byd">BYD</span>
-                        {{ scope.row.difficulties.BYD.constant }}
-                        <el-button size="small" @click="selectDifficulty(scope.row.difficulties.BYD.constant)">
-                          选择
-                        </el-button>
-                      </div>
-                    </template>
-                  </el-table-column>
-                </el-table>
+            <div :inert="activeTab !== 'songSearch'">
+              <div class="calculator">
+                <div class="form-item">
+                  <div class="form-label">搜索歌曲</div>
+                  <el-input
+                    v-model="searchQuery"
+                    placeholder="输入歌曲名称"
+                    clearable
+                    @input="searchSongs">
+                  </el-input>
+                </div>
+                <div class="song-list" v-if="filteredSongs.length > 0">
+                  <el-table
+                    :data="filteredSongs"
+                    style="width: 100%">
+                    <el-table-column
+                      prop="title"
+                      label="歌曲名称"
+                      width="280">
+                    </el-table-column>
+                    <el-table-column label="难度">
+                      <template #default="scope">
+                        <div class="difficulty-row" v-if="scope.row.difficulties.PST">
+                          <span class="difficulty-label difficulty-pst">PST</span>
+                          {{ scope.row.difficulties.PST.constant }}
+                          <el-button size="small" @click="selectDifficulty(scope.row.difficulties.PST.constant)">
+                            选择
+                          </el-button>
+                        </div>
+                        <div class="difficulty-row" v-if="scope.row.difficulties.PRS">
+                          <span class="difficulty-label difficulty-prs">PRS</span>
+                          {{ scope.row.difficulties.PRS.constant }}
+                          <el-button size="small" @click="selectDifficulty(scope.row.difficulties.PRS.constant)">
+                            选择
+                          </el-button>
+                        </div>
+                        <div class="difficulty-row" v-if="scope.row.difficulties.FTR">
+                          <span class="difficulty-label difficulty-ftr">FTR</span>
+                          {{ scope.row.difficulties.FTR.constant }}
+                          <el-button size="small" @click="selectDifficulty(scope.row.difficulties.FTR.constant)">
+                            选择
+                          </el-button>
+                        </div>
+                        <div class="difficulty-row" v-if="scope.row.difficulties.BYD">
+                          <span class="difficulty-label difficulty-byd">BYD</span>
+                          {{ scope.row.difficulties.BYD.constant }}
+                          <el-button size="small" @click="selectDifficulty(scope.row.difficulties.BYD.constant)">
+                            选择
+                          </el-button>
+                        </div>
+                      </template>
+                    </el-table-column>
+                  </el-table>
+                </div>
               </div>
             </div>
           </el-tab-pane>
