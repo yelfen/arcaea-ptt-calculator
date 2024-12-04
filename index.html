@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arcaea PTT 计算器</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/element-plus/dist/index.css">
+  <script src="https://unpkg.com/element-plus"></script>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f7fa;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .main-container {
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px 0 rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    .version-info {
+      text-align: center;
+      padding: 12px 20px;
+      background: #409EFF;
+      color: white;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      box-shadow: 0 2px 12px 0 rgba(64,158,255,0.2);
+      margin-top: 20px;
+    }
+    .title {
+      text-align: center;
+      color: #409EFF;
+      margin-bottom: 30px;
+    }
+    .calculator {
+      margin-bottom: 30px;
+    }
+    .result {
+      margin-top: 20px;
+      padding: 15px;
+      background: #f0f9eb;
+      border-radius: 4px;
+      color: #67c23a;
+    }
+    .warning {
+      margin-top: 20px;
+      padding: 15px;
+      background: #fef0f0;
+      border-radius: 4px;
+      color: #f56c6c;
+    }
+    .form-item {
+      margin-bottom: 15px;
+    }
+    .quick-select {
+      margin-top: 10px;
+      display: flex;
+      gap: 10px;
+    }
+    .form-label {
+      margin-bottom: 5px;
+      color: #606266;
+      font-size: 14px;
+    }
+    .song-list {
+      margin-top: 20px;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+    .el-table {
+      margin-top: 10px;
+    }
+    .difficulty-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+    .difficulty-label {
+      display: inline-block;
+      width: 40px;
+      font-weight: bold;
+    }
+    .difficulty-pst { color: #4CAF50; }
+    .difficulty-prs { color: #2196F3; }
+    .difficulty-ftr { color: #9C27B0; }
+    .difficulty-byd { color: #FF5722; }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div class="container">
+      <div class="main-container">
+        <h1 class="title">Arcaea PTT 计算器</h1>
+        
+        <el-tabs v-model="activeTab">
+          <!-- 计算PTT的标签页 -->
+          <el-tab-pane label="计算PTT" name="calculatePtt">
+            <div class="calculator">
+              <div class="form-item">
+                <div class="form-label">谱面定数（Chart Constant）</div>
+                <el-tooltip
+                  content="输入谱面的定数值，范围0-12"
+                  placement="top"
+                >
+                  <el-input-number 
+                    v-model="chart.constant" 
+                    :min="0" 
+                    :max="12" 
+                    :step="0.1"
+                    placeholder="谱面定数">
+                  </el-input-number>
+                </el-tooltip>
+              </div>
+              <div class="form-item">
+                <div class="form-label">游玩分数（Score）</div>
+                <el-tooltip
+                  content="输入实际获得的游玩分数"
+                  placement="top"
+                >
+                  <el-input-number 
+                    v-model="chart.score" 
+                    :min="0" 
+                    :max="10000000" 
+                    :step="1000"
+                    placeholder="游玩分数">
+                  </el-input-number>
+                </el-tooltip>
+                <div class="quick-select">
+                  <el-button size="small" @click="setScore('AA')">AA (9500k)</el-button>
+                  <el-button size="small" @click="setScore('EX')">EX (9800k)</el-button>
+                  <el-button size="small" @click="setScore('EXPlus')">EX+ (9900k)</el-button>
+                  <el-button size="small" @click="setScore('PM')">PM (10000k)</el-button>
+                </div>
+              </div>
+              <el-button type="primary" @click="calculatePtt">计算</el-button>
+              <div v-if="pttResult" class="result">
+                计算结果：{{ pttResult }} PTT
+              </div>
+            </div>
+          </el-tab-pane>
+
+          <!-- 计算所需分数的标签页 -->
+          <el-tab-pane label="计算所需分数" name="calculateScore">
+            <div class="calculator">
+              <div class="form-item">
+                <div class="form-label">谱面定数（Chart Constant）</div>
+                <el-tooltip
+                  content="输入谱面的定数值，范围0-12"
+                  placement="top"
+                >
+                  <el-input-number 
+                    v-model="target.constant" 
+                    :min="0" 
+                    :max="12" 
+                    :step="0.1"
+                    placeholder="谱面定数">
+                  </el-input-number>
+                </el-tooltip>
+              </div>
+              <div class="form-item">
+                <div class="form-label">目标PTT值（Target PTT）</div>
+                <el-tooltip
+                  content="输入想要达到的PTT值"
+                  placement="top"
+                >
+                  <el-input-number 
+                    v-model="target.ptt" 
+                    :min="0" 
+                    :max="14" 
+                    :step="0.1"
+                    placeholder="目标PTT">
+                  </el-input-number>
+                </el-tooltip>
+              </div>
+              <el-button type="primary" @click="calculateRequiredScore">计算</el-button>
+              <div v-if="scoreResult && !impossible" class="result">
+                需要的最低分数：{{ scoreResult.toLocaleString() }}
+              </div>
+              <div v-if="impossible" class="warning">
+                无法达到目标PTT：即使获得PM (1000万分)，最高只能获得 {{ maxPossiblePtt }} PTT
+              </div>
+            </div>
+          </el-tab-pane>
+
+          <!-- 谱面查询标签页 -->
+          <el-tab-pane label="谱面查询" name="songSearch">
+            <div class="calculator">
+              <div class="form-item">
+                <div class="form-label">搜索歌曲</div>
+                <el-input
+                  v-model="searchQuery"
+                  placeholder="输入歌曲名称"
+                  clearable
+                  @input="searchSongs">
+                </el-input>
+              </div>
+              <div class="song-list" v-if="filteredSongs.length > 0">
+                <el-table
+                  :data="filteredSongs"
+                  style="width: 100%">
+                  <el-table-column
+                    prop="title"
+                    label="歌曲名称"
+                    width="280">
+                  </el-table-column>
+                  <el-table-column label="难度">
+                    <template #default="scope">
+                      <div class="difficulty-row" v-if="scope.row.difficulties.PST">
+                        <span class="difficulty-label difficulty-pst">PST</span>
+                        {{ scope.row.difficulties.PST.constant }}
+                        <el-button size="small" @click="selectDifficulty(scope.row.difficulties.PST.constant)">
+                          选择
+                        </el-button>
+                      </div>
+                      <div class="difficulty-row" v-if="scope.row.difficulties.PRS">
+                        <span class="difficulty-label difficulty-prs">PRS</span>
+                        {{ scope.row.difficulties.PRS.constant }}
+                        <el-button size="small" @click="selectDifficulty(scope.row.difficulties.PRS.constant)">
+                          选择
+                        </el-button>
+                      </div>
+                      <div class="difficulty-row" v-if="scope.row.difficulties.FTR">
+                        <span class="difficulty-label difficulty-ftr">FTR</span>
+                        {{ scope.row.difficulties.FTR.constant }}
+                        <el-button size="small" @click="selectDifficulty(scope.row.difficulties.FTR.constant)">
+                          选择
+                        </el-button>
+                      </div>
+                      <div class="difficulty-row" v-if="scope.row.difficulties.BYD">
+                        <span class="difficulty-label difficulty-byd">BYD</span>
+                        {{ scope.row.difficulties.BYD.constant }}
+                        <el-button size="small" @click="selectDifficulty(scope.row.difficulties.BYD.constant)">
+                          选择
+                        </el-button>
+                      </div>
+                    </template>
+                  </el-table-column>
+                </el-table>
+              </div>
+            </div>
+          </el-tab-pane>
+        </el-tabs>
+      </div>
+
+      <!-- 版本信息 -->
+      <div class="version-info">
+        支持 Arcaea v6.0.3 版本
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const { createApp, ref, onMounted } = Vue
+    
+    createApp({
+      setup() {
+        const activeTab = ref('calculatePtt')
+        const chart = ref({
+          constant: null,
+          score: null
+        })
+        const target = ref({
+          constant: null,
+          ptt: null
+        })
+        const pttResult = ref(null)
+        const scoreResult = ref(null)
+        const impossible = ref(false)
+        const maxPossiblePtt = ref(null)
+        const songData = ref([])
+        const searchQuery = ref('')
+        const filteredSongs = ref([])
+
+        // 加载歌曲数据
+        const loadSongData = async () => {
+          try {
+            const response = await fetch('v6.0.3.json')
+            const data = await response.json()
+            songData.value = data.songs
+          } catch (error) {
+            console.error('Failed to load song data:', error)
+          }
+        }
+
+        // 搜索歌曲
+        const searchSongs = () => {
+          if (!searchQuery.value) {
+            filteredSongs.value = []
+            return
+          }
+          
+          filteredSongs.value = songData.value.filter(song => 
+            song.title.toLowerCase().includes(searchQuery.value.toLowerCase())
+          )
+        }
+
+        // 选择难度
+        const selectDifficulty = (constant) => {
+          chart.value.constant = constant
+          target.value.constant = constant
+          activeTab.value = 'calculatePtt'
+        }
+
+        const setScore = (type) => {
+          switch(type) {
+            case 'AA':
+              chart.value.score = 9500000
+              break
+            case 'EX':
+              chart.value.score = 9800000
+              break
+            case 'EXPlus':
+              chart.value.score = 9900000
+              break
+            case 'PM':
+              chart.value.score = 10000000
+              break
+          }
+        }
+
+        const calculatePtt = () => {
+          if (chart.value.constant === null || chart.value.score === null) {
+            return
+          }
+          const score = chart.value.score
+          const constant = chart.value.constant
+          let ptt = 0
+
+          if (score >= 10000000) {
+            ptt = constant + 2
+          } else if (score >= 9800000) {
+            ptt = constant + 1 + (score - 9800000) / 200000
+          } else {
+            ptt = Math.max(0, constant + (score - 9500000) / 300000)
+          }
+
+          pttResult.value = ptt.toFixed(4)
+        }
+
+        const calculateRequiredScore = () => {
+          if (target.value.constant === null || target.value.ptt === null) {
+            return
+          }
+          const targetPtt = target.value.ptt
+          const constant = target.value.constant
+          const maxPtt = constant + 2
+
+          // 检查是否可能达到目标PTT
+          if (targetPtt > maxPtt) {
+            impossible.value = true
+            maxPossiblePtt.value = maxPtt.toFixed(4)
+            scoreResult.value = null
+            return
+          }
+
+          impossible.value = false
+          let requiredScore = 0
+
+          if (targetPtt >= constant + 1) {
+            // 需要EX以上的分数
+            requiredScore = 9800000 + (targetPtt - constant - 1) * 200000
+          } else {
+            // 需要AA到EX之间的分数
+            requiredScore = 9500000 + (targetPtt - constant) * 300000
+          }
+
+          scoreResult.value = Math.ceil(requiredScore)
+        }
+
+        onMounted(() => {
+          loadSongData()
+        })
+
+        return {
+          activeTab,
+          chart,
+          target,
+          pttResult,
+          scoreResult,
+          impossible,
+          maxPossiblePtt,
+          searchQuery,
+          filteredSongs,
+          setScore,
+          calculatePtt,
+          calculateRequiredScore,
+          selectDifficulty,
+          searchSongs
+        }
+      }
+    }).use(ElementPlus).mount('#app')
+  </script>
+</body>
+</html>
